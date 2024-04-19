@@ -1,5 +1,5 @@
-import Versions from '../components/Versions'
-import NameTittle from '../components/NameTittle'
+import { Link } from "react-router-dom";
+import "../assets/main.css";
 
 function HomePage() {
     const ipcHandle = () => window.electron.ipcRenderer.send('ping')
@@ -19,9 +19,9 @@ function HomePage() {
         
         <div className="actions">
           <div className="action">
-          <a href="http://localhost:5173/nome" target="_blank" rel="noreferrer">
+          <Link to="/nome">
             Começar!
-          </a>
+          </Link>
           </div>
         </div>
           {/* <div className="action">

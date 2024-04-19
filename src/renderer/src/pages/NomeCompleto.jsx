@@ -1,6 +1,7 @@
 import React from 'react';
 import { UserOutlined } from '@ant-design/icons';
 import { Input } from 'antd';
+import { Link } from 'react-router-dom';
 
 const NomeCompleto = () => (
   <>
@@ -17,11 +18,11 @@ const NomeCompleto = () => (
     <br />
     <br />
     <div className="actions">
-          <div className="action">
-            <a href="https://electron-vite.org/" target="_blank" rel="noreferrer">
-              Avançar
-            </a>
-          </div>
+      <div className="action">
+          <Link to="/">
+            Avançar
+          </Link>
+      </div>
     </div>
     
   </>
