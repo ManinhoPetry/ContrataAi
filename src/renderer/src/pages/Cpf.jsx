@@ -1,9 +1,9 @@
 import React from 'react';
-import { UserOutlined } from '@ant-design/icons';
-import { ConfigProvider, Input, Steps} from 'antd';
+import { SolutionOutlined } from '@ant-design/icons';
+import { ConfigProvider, Input, Steps } from 'antd';
 import { Link } from 'react-router-dom';
 
-const NomeCompleto = () => (
+const Cpf = () => (
   <>
     <div className="name">
           <span className="react">ContrataAí</span>
@@ -19,7 +19,7 @@ const NomeCompleto = () => (
       >
         <Steps
         size="small"
-        current={0}
+        current={1}
         items={[
           {
             
@@ -39,19 +39,20 @@ const NomeCompleto = () => (
     </div>
     <br /><br />
     <div className="text">
-            Nome completo 
+            CPF 
         </div>
     <br />
-    <Input size="large" placeholder="Ex: Jorge Lara" prefix={<UserOutlined />} />
+    <Input size="large" placeholder="Ex: 123.456.789-10" prefix={<SolutionOutlined />} />
     <br />
     <br />
     <div className="actions">
       <div className="action">
-          <Link to="/cadastro/cpf">
+          <Link to="/cadastro/contatos">
             Avançar
           </Link>
       </div>
     </div>
+    
   </>
 );
-export default NomeCompleto;
+export default Cpf;

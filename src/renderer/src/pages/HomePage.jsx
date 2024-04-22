@@ -19,7 +19,7 @@ function HomePage() {
         
         <div className="actions">
           <div className="action">
-          <Link to="/nome">
+          <Link to="/cadastro/nome">
             Começar!
           </Link>
           </div>

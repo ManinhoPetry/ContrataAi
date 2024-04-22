@@ -1,9 +1,9 @@
 import React from 'react';
-import { UserOutlined } from '@ant-design/icons';
-import { ConfigProvider, Input, Steps} from 'antd';
+import { WhatsAppOutlined, MailOutlined} from '@ant-design/icons';
+import { ConfigProvider, Input, Steps } from 'antd';
 import { Link } from 'react-router-dom';
 
-const NomeCompleto = () => (
+const Contatos = () => (
   <>
     <div className="name">
           <span className="react">ContrataAí</span>
@@ -19,7 +19,7 @@ const NomeCompleto = () => (
       >
         <Steps
         size="small"
-        current={0}
+        current={2}
         items={[
           {
             
@@ -39,19 +39,22 @@ const NomeCompleto = () => (
     </div>
     <br /><br />
     <div className="text">
-            Nome completo 
+            Contatos 
         </div>
     <br />
-    <Input size="large" placeholder="Ex: Jorge Lara" prefix={<UserOutlined />} />
+    <Input size="large" placeholder="Ex: (12) 912345678" prefix={<WhatsAppOutlined />} />
+    <br />
+    <Input size="large" placeholder="Ex: email@gmail.com" prefix={<MailOutlined />} />
     <br />
     <br />
     <div className="actions">
       <div className="action">
-          <Link to="/cadastro/cpf">
+          <Link to="/">
             Avançar
           </Link>
       </div>
     </div>
+    
   </>
 );
-export default NomeCompleto;
+export default Contatos;
