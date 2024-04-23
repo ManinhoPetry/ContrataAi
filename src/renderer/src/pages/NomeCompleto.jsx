@@ -30,9 +30,6 @@ const NomeCompleto = () => (
           {
           
           },
-          {
-          
-          },
         ]}
       />
       </ConfigProvider>
@@ -47,7 +44,7 @@ const NomeCompleto = () => (
     <br />
     <div className="actions">
       <div className="action">
-          <Link to="/cadastro/cpf">
+          <Link to="/cadastro/contatos">
             Avançar
           </Link>
       </div>

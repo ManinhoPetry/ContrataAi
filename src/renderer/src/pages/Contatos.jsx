@@ -19,16 +19,13 @@ const Contatos = () => (
       >
         <Steps
         size="small"
-        current={2}
+        current={1}
         items={[
           {
             
           },
           {
             
-          },
-          {
-          
           },
           {
           
@@ -49,7 +46,7 @@ const Contatos = () => (
     <br />
     <div className="actions">
       <div className="action">
-          <Link to="/">
+          <Link to="/cadastro/curriculo">
             Avançar
           </Link>
       </div>
