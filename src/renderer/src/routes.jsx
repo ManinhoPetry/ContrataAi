@@ -4,6 +4,7 @@ import NomeCompleto from "./pages/NomeCompleto";
 import Contatos from "./pages/Contatos";
 import Curriculo from "./pages/Curriculo";
 import Concluido from "./pages/Concluido";
+import Formulario from "./pages/Formulario";
 
 function AppRoutes() {
     return (
@@ -13,6 +14,7 @@ function AppRoutes() {
             <Route path="/cadastro/contatos" element={<Contatos/>} ></Route>
             <Route path="/cadastro/curriculo" element={<Curriculo/>} ></Route>
             <Route path="/cadastro/concluido" element={<Concluido/>} ></Route>
+            <Route path="/cadastro/formulario" element={<Formulario/>}></Route>
         </Routes>
     );
 }

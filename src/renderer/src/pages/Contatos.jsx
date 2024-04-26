@@ -46,9 +46,11 @@ const Contatos = () => (
     <br />
     <div className="actions">
       <div className="action">
+        <div className="avançar">
           <Link to="/cadastro/curriculo">
             Avançar
           </Link>
+        </div>
       </div>
     </div>
     

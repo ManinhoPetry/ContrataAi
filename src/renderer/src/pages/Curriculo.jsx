@@ -65,14 +65,23 @@ const Curriculo = () => (
     </div>
     <br /><br />
     <div className="text">
-            Currículo 
+          Nos mostre seu Currículo 
         </div>
     <br />
     <center>
         <Upload {...props}>
-        <Button icon={<UploadOutlined />}>Upload PDF only</Button>
+        <Button type="primary" size="large" icon={<UploadOutlined />}>Upload PDF only</Button>
         </Upload>
     </center>
+    <br />
+    <div className='tip'>
+      Não possui um currículo?
+    </div>
+    <Button type="link" shape="round" size="small">
+        <Link to="/cadastro/formulario">
+            Preencher formulário
+        </Link>
+    </Button>
     <br />
     <br />
     <div className="actions">

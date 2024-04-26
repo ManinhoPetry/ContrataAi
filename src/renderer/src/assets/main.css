@@ -126,6 +126,13 @@ code {
   background-color: var(--ev-button-alt-hover-bg);
 }
 
+.avançar {
+position: absolute;
+top: 670px;
+left: 890px;
+/* top: 10px; */
+}
+
 .versions {
   position: absolute;
   bottom: 30px;

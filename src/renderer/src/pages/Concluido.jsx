@@ -22,9 +22,11 @@ const Concluido = () => (
     <br />
     <div className="actions">
       <div className="action">
+        <div className="avançar">
           <Link to="/">
             FInalizar
           </Link>
+        </div>
       </div>
     </div>
     

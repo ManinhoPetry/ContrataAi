@@ -44,9 +44,11 @@ const NomeCompleto = () => (
     <br />
     <div className="actions">
       <div className="action">
+        <div className="avançar">
           <Link to="/cadastro/contatos">
             Avançar
           </Link>
+        </div>
       </div>
     </div>
   </>
